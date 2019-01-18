@@ -1,5 +1,5 @@
 {
-    "name": "rits/admin-template",
+    "name": "rits-tecnologia/admin-template",
     "description": "Fully-featured laravel admin template for Rits projects",
     "type": "library",
     "require": {
