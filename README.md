@@ -6,7 +6,7 @@
 #!/bin/bash
 
 # Require the package
-composer require rits/admin-template @dev
+composer require rits-tecnologia/admin-template @dev
 
 # Publish admin-template assets
 php artisan vendor:publish --tag=admin-template-assets
