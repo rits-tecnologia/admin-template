@@ -1,0 +1,32 @@
+{
+    "name": "rits/admin-template",
+    "description": "Fully-featured laravel admin template for Rits projects",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "^5.7",
+        "spatie/laravel-html": "^2.20"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juciano Araujo",
+            "email": "jucianoaraujo@rits.com.br"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Rits\\AdminTemplate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rits\\AdminTemplate\\Providers\\AdminTemplateServiceProvider"
+            ]
+        }
+    }
+}
